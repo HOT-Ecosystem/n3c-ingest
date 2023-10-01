@@ -5,6 +5,7 @@
 # MAIN COMMANDS / GOALS ------------------------------------------------------------------------------------------------
 all: n3c.db
 
+# n3c.owl: Running `python n3c_ingest.n3c_ingest` uses default params, whears `python -m n3c_ingest` provides a CLI.
 n3c.owl n3c.db: io/input/concept.csv | io/release/
 	 python -m n3c_ingest --concept-csv-path io/input/concept.csv --concept-relationship-csv-path io/input/concept_relationship.csv --outdir io/release/
 

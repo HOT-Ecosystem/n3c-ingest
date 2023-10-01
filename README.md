@@ -18,7 +18,7 @@ Run: `make all`
 
 ### Caveats
 #### Memory requirements
-Running with defaults takes somewhere between 28-50GB, and this only includes the "Subsumes" relationship type. There 
+Running with defaults takes somewhere between 28-50GB, and this only includes the "Is a" relationship type. There 
 are 411 total relationship types, thusly requiring more memory as you add more.
 
 ### CLI
