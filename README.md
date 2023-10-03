@@ -71,3 +71,8 @@ options:
                         The amount of Java memory (GB) to allocate.
   -i, --install         Installs necessary docker images.
 ```
+
+## Additional information
+
+### Implementation diagram
+![Implementation diagram](docs/implementation_diagram.png 'Implementation diagram')
