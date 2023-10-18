@@ -1,2 +1,1 @@
-# omop2fhir-vocab
-omop2owl-vocab
+omop2fhir-vocab
